@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  a{
+    text-decoration: none;
+  }
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+  }
+
+  /* RESET OVER */
+
+  /* HEX colors for sections
+
+for sections
+#EAE7DC
+#D8C3A5
+
+for h1 
+#E85A4F
+
+*/
+
+* {
+  font-family: 'Work Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.content {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.color-1 {
+  background-color: #EAE7DC;
+}
+
+.color-2 {
+  background-color: #D8C3A5;
+}
+
+h1{
+  color: #E85A4F;
+  font-size: 90px;
+  margin-bottom: 10px;
+  margin-top: -50px;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+header img {
+  height: 548px;
+  width: 783px;
+  border-radius: 70px;
+}
+
+section div h2 {
+  text-align: left;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 36px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+nav li {
+  display: inline;
+  padding: 5px 15px 5px 15px;
+  margin: 0px 25px 0 25px;
+}
+
+nav ul {
+  margin-top: 35px;
+}
+
+li a {
+  font-size: 28px;
+}
+
+nav li:hover {                              
+  background-color: #E85A4F;
+  border-radius: 12px;
+}
+
+li a:hover {
+  color: #D8C3A5;
+}
+
+#section-guessWho img {
+  height: 400px;
+  width: 400px;
+  margin-right: 220px;
+}
+
+#section-guessWho {
+  flex-direction: column;
+}
+
+#section-guessWho h2 {
+  font-size: 48px;
+}
+
+#section-guessWho div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -125px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+section img {
+  border-radius: 200px;
+  width: 400px;
+  height: 400px;
+}
